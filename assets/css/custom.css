@@ -59,7 +59,7 @@
 @media (max-width: 992px) {
   #hero {
     text-align: center;
-    padding-left: 50px;
+    padding-left: 0;
   }
   #hero h1 {
     font-size: 32px;
@@ -70,6 +70,9 @@
     font-size: 20px;
     line-height: 24px;
   }
+  #hero button{
+    width:200px !important;
+}
 }
 i.skills-icon{
   font-size: 50px;
