@@ -1,10 +1,3 @@
-
-.white-mode
-{
-
-}
-
-
 /* ok */
 @media only screen and (min-device-width: 1440px) and (max-device-width: 1440px) and (orientation: landscape) {
   /* For landscape layouts only */
@@ -107,6 +100,14 @@ h1 {
 strong{
   color: #5236ab;
 }
+.cert-link{
+  color: #5236ab;
+}
+.cert-link:hover{
+  color: #796da3;
+}
+
+
 h1:before,
 h1:after {
   content: "";
@@ -506,3 +507,4 @@ body {
   border-radius: 150%;
 }
 /* ----------------------------------------------------------------
+
